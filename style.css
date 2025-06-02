@@ -1,3 +1,12 @@
+h1,
+h2,
+h3,
+h4,
+p,
+li {
+  font-family: "Arial Narrow", Arial, sans-serif;
+}
+
 /* h1 is selector and the {} is the declaration */
 h1 {
   color: rgb(88, 88, 255);
@@ -11,7 +20,6 @@ h1 {
 h2 {
   color: rgb(43, 43, 119);
   font-size: 30px;
-  font-family: "Arial", Arial, sans-serif;
   text-transform: capitalize;
   font-style: bold;
   text-align: start;
@@ -20,25 +28,22 @@ h2 {
 h3 {
   color: rgb(161, 161, 251);
   font-size: 25px;
-  font-family: "Arial", Arial, sans-serif;
   text-transform: capitalize;
   font-style: normal;
-  text-align: start;
+  text-align: center;
 }
 h4 {
   color: rgb(85, 85, 209);
   font-size: 23px;
-  font-family: "Arial Narrow", Arial, sans-serif;
   text-transform: uppercase;
   font-style: bold;
-  text-align: center;
+  text-align: start;
 }
 
 li {
   color: rgba(0, 0, 0, 0.888);
   font-size: medium;
   font-style: oblique;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   background-color: aliceblue;
 }
 p {
