@@ -8,8 +8,14 @@ li {
 }
 
 /* h1 is selector and the {} is the declaration */
+h1,
+h2,
+h3,
+h4 {
+  color: #5858ff;
+  background-color: #000f53;
+}
 h1 {
-  color: rgb(88, 88, 255);
   font-size: 30px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-transform: uppercase;
@@ -18,7 +24,7 @@ h1 {
 }
 
 h2 {
-  color: rgb(43, 43, 119);
+  /* color: rgb(43, 43, 119);   */
   font-size: 30px;
   text-transform: capitalize;
   font-style: bold;
@@ -33,7 +39,7 @@ h3 {
   text-align: center;
 }
 h4 {
-  color: rgb(85, 85, 209);
+  color: rgb(161, 161, 251);
   font-size: 23px;
   text-transform: uppercase;
   font-style: bold;
@@ -77,4 +83,15 @@ footer {
 
 .related {
   list-style: none;
+}
+aside {
+  background-color: #833efb;
+  border: 3px;
+  border-style: groove;
+  border-bottom: #000f53;
+  border-top: #000f53;
+}
+
+body {
+  background-color: #b9b9f6;
 }
