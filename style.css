@@ -50,7 +50,6 @@ li {
   color: rgba(0, 0, 0, 0.888);
   font-size: medium;
   font-style: oblique;
-  background-color: aliceblue;
 }
 p {
   font-size: 15px;
@@ -84,6 +83,7 @@ footer {
 .related {
   list-style: none;
 }
+
 aside {
   background-color: #833efb;
   border: 3px;
@@ -95,3 +95,38 @@ aside {
 body {
   background-color: #b9b9f6;
 }
+
+li:first-child {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.rel-item {
+  background-color: aliceblue;
+}
+
+/* Styling Hyperlinks */
+a:link {
+  color: #0000ff;
+  text-decoration: none;
+}
+
+/* Changes color if the link is visited */
+/* a:visited {
+  color: #ff5aff;
+  text-decoration: none;
+} */
+
+a:hover {
+  color: #2d0352;
+  text-decoration: underline;
+  text-shadow: #b9b9f6 2px 2px 4px;
+  font-weight: bold;
+}
+
+a:active {
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+/* LVHA */
