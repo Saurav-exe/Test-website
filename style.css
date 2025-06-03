@@ -66,3 +66,15 @@ footer {
   font-style: italic;
   text-align: start;
 }
+
+.rel-author {
+  color: rgb(51, 173, 255);
+  font-size: 16px;
+  /* font-style: bold; */
+  font-weight: bolder;
+  text-align: start;
+}
+
+.related {
+  list-style: none;
+}
