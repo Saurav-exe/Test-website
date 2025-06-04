@@ -1,0 +1,56 @@
+p {
+  font-size: 15px;
+  font-family: sans-serif;
+  font-style: normal;
+  text-align: justify;
+  list-style: 1.3;
+  color: black;
+}
+
+.product-title {
+  font-size: 24px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.price {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.shipping {
+  font-size: 16px;
+  color: #aba7a7;
+  font-style: italic;
+}
+
+a:link {
+  font-size: 16px;
+  text-decoration: solid;
+  color: #333;
+}
+a:hover {
+  color: black;
+  background-color: azure;
+}
+
+.add-cart {
+  background-color:whitesmoke;
+  color= black;
+  border: 1px solid #000000;
+}
+
+.add-cart:hover {
+  background-color:whitesmoke;
+  color= black;
+  border: 1px solid #ccc;
+}
+
+.add-cart:active {
+  color: #ccc;
+  background-color: black;
+  border: 1px solid #e0e0e0;
+}
