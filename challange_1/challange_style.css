@@ -1,3 +1,9 @@
+article {
+  background-color: aliceblue;
+  border: 5px solid #010518;
+  padding: 10px;
+  margin: 10px;
+}
 p {
   font-size: 15px;
   font-family: sans-serif;
@@ -38,14 +44,14 @@ a:hover {
 }
 
 .add-cart {
-  background-color:whitesmoke;
-  color= black;
+  background-color: whitesmoke;
+  color: black;
   border: 1px solid #000000;
 }
 
 .add-cart:hover {
-  background-color:whitesmoke;
-  color= black;
+  background-color: whitesmoke;
+  color: black;
   border: 1px solid #ccc;
 }
 
