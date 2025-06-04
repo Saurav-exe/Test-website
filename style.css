@@ -130,3 +130,20 @@ a:active {
   font-weight: bold;
 }
 /* LVHA */
+
+/* conflict resolvement */
+
+.copyright {
+  font-size: 10px;
+  color: red;
+  text-align: center;
+  text-shadow: #b9b9f6 2px 2px 4px;
+}
+
+#copyright {
+  font-size: 10px;
+  color: blueviolet;
+  text-align: center;
+  text-shadow: #8c8cf9 2px 2px 4px;
+  background-color: rgb(171, 171, 247);
+}
