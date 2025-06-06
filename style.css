@@ -21,6 +21,7 @@ li {
   text-align: center;
   padding: 10px 50px;
   margin-bottom: 30px;
+  height: 80px;
 }
 
 .sec_header {
@@ -119,9 +120,9 @@ footer {
 }
 
 #postimg {
-  marging-top: 10px;
-  margin-left: 125px;
-  margin-right: 125px;
+  height: auto;
+  width: 100%;
+  padding: 0.1%;
   border-radius: 10%;
 }
 .rel-author {
@@ -145,6 +146,7 @@ aside {
   padding-bottom: 50px;
   border-bottom: #000f53;
   border-top: #000f53;
+  width: 300px;
 }
 
 body {
