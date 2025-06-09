@@ -24,7 +24,7 @@ li {
 
 .main_header {
   background-color: #000f53;
-  color: #5858ff;
+  color: #ffffff;
   text-align: center;
   padding: 10px 50px;
   margin-bottom: 30px;
@@ -40,10 +40,11 @@ h1,
 h2,
 h3,
 h4 {
-  color: #5858ff;
+  color: #0d0db5;
   background-color: #000f53;
 }
 h1 {
+  color: #d6d6d6;
   font-size: 30px;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   text-transform: uppercase;
@@ -185,8 +186,11 @@ li:first-child {
 }
 
 /* Styling Hyperlinks */
+a {
+  color: #7a45ff;
+}
 a:link {
-  color: #a7a7f1;
+  color: #000000;
   text-decoration: none;
 }
 
@@ -251,4 +255,19 @@ h2::after {
   position: absolute;
   top: -15px;
   right: 0px;
+}
+
+/* Floats */
+h1 {
+  float: left;
+  margin-right: 20px;
+}
+
+nav {
+  color: #7a45ff;
+  margin-top: 15px;
+  float: right;
+  margin-left: 20px;
+
+  align-items: center;
 }
