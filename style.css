@@ -6,6 +6,13 @@
   box-sizing: border-box;
 }
 
+.container {
+  width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  /* position: relative; */
+}
+
 h1,
 h2,
 h3,
@@ -46,7 +53,7 @@ h1 {
 
 h2 {
   /* color: rgb(43, 43, 119);   */
-
+  position: relative;
   background-color: #d29eff;
   font-size: 30px;
   text-transform: capitalize;
@@ -106,6 +113,19 @@ footer {
   text-shadow: 10px;
 }
 
+.Like_btn {
+  font-size: 20px;
+  margin: 10px;
+  padding: 20px;
+  background-color: #7a45ff;
+  border-radius: 10px;
+
+  position: absolute;
+  /* left: 0;
+  top: 0; */
+  bottom: 0;
+  right: 0;
+}
 #AuthorImage {
   margin-top: 10px;
   margin-left: 125px;
@@ -151,6 +171,8 @@ aside {
 
 body {
   background-color: #b9b9f6;
+  position: relative;
+  padding: 5px;
 }
 
 li:first-child {
@@ -203,4 +225,30 @@ a:active {
   text-align: center;
   text-shadow: #8c8cf9 2px 2px 4px;
   background-color: rgb(171, 171, 247);
+}
+
+/* Pesudo Element */
+/* The ::before and ::after pseudo-elements are used to insert content before or after an element's content. */
+h1::first-letter {
+  font-style: normal;
+  font-weight: bold;
+}
+
+/* p::first-line {
+  font-weight: bold;
+} */
+
+h2::after {
+  content: "TOP";
+  color: #f21dab;
+  /* background-color: #6782ff64; */
+  text-shadow: #4e4e7e 2px 2px 2px;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+  display: inline-block;
+  position: absolute;
+  top: -15px;
+  right: 0px;
 }
